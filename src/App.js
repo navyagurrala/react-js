@@ -6,7 +6,7 @@
 import {Component} from"react"
 import ButtonComponent from "./components/button/button-component"
 import Order from "./components/button/list compenents/order.list/order"
-
+import Form from "./components/button/forms/forms"
 
 
 
@@ -21,6 +21,7 @@ function App () {
                   <ButtonComponent></ButtonComponent>
                   <div>navya</div>
                   <Order/>
+                  <Form/>
             </div>
             
       )
