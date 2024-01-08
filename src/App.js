@@ -3,11 +3,14 @@
 
 
 
-import {Component} from"react"
+// import {Component} from"react"
 import ButtonComponent from "./components/button/button-component"
 import Order from "./components/button/list compenents/order.list/order"
 import Form from "./components/button/forms/forms"
-
+// import { TodoList } from "./components/todo-list/todo"
+// import Todo from "./components/todo-list/todo"
+import  {TodoList } from "./components/todo-list/todo"
+import Fun1 ,{Newfun1,Named1} from "./components/export types/export"
 
 
 
@@ -22,6 +25,11 @@ function App () {
                   <div>navya</div>
                   <Order/>
                   <Form/>
+                  <TodoList></TodoList>
+                  <Fun1/>
+                  <Newfun1/>
+                  <Named1></Named1>
+                  
             </div>
             
       )
