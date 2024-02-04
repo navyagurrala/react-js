@@ -1,9 +1,9 @@
-
+// import "./styles.css"
 
 function Form(){
     return(
         <div>
-            <form>
+            <form className="form">
                 first name:<input type="text"></input><br></br>
                 last name:<input type="text"></input><br></br>
                 Email:<input type="email"></input><br></br>
