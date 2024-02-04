@@ -1,7 +1,7 @@
 function Order(){
     return(
-        <div>
-            <ol>
+        <div >
+            <ol className="ol">
                 <li>navya</li>
                 <li>archu</li>
             </ol>
